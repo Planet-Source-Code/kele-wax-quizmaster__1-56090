@@ -1,0 +1,128 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\System32\stdole2.tlb#OLE Automation
+Reference=*\G{00000206-0000-0010-8000-00AA006D2EA4}#2.6#0#..\..\..\..\..\..\Program Files\Common Files\System\ADO\msado26.tlb#Microsoft ActiveX Data Objects 2.6 Library
+Reference=*\G{00000600-0000-0010-8000-00AA006D2EA4}#2.7#0#..\..\..\..\..\..\Program Files\Common Files\System\ado\msadox.dll#Microsoft ADO Ext. 2.7 for DDL and Security
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#..\..\..\..\..\..\WINDOWS\System32\scrrun.dll#Microsoft Scripting Runtime
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; COMDLG32.OCX
+Object={65E121D4-0C60-11D2-A9FC-0000F8754DA1}#2.0#0; mschrt20.ocx
+Form=frmTest.frm
+Module=modGlobal; modGlobal.bas
+Form=frmSelectQuestion.frm
+Form=frmStudentInfomation.frm
+Form=frmSubjects.frm
+Form=frmQuestions.frm
+Form=frmPruneDB.frm
+Form=frmLogin.frm
+Form=frmChangePwd.frm
+Form=frmMain.frm
+Form=frmRegAdmin.frm
+Class=clsPieBar; clsPieBar.cls
+Form=frmResult.frm
+Form=frmHelp.frm
+UserControl=ZoomPic.ctl
+Class=clsCreateDataBase; clsCreateDataBase.cls
+Module=modCreateDataBase; modCreateDataBase.bas
+IconForm="frmLogin"
+Startup="frmLogin"
+HelpFile=""
+Title="Quiz Master"
+ExeName32="QuizMaster.exe"
+Command32=""
+Name="prjQuizMaster"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="This is a little programme for quiz administration"
+VersionCompanyName="ASMOH SOFT NIG LTD"
+VersionLegalCopyright="All rights reserved"
+VersionProductName="Quiz Master"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[TaskList]
+Num=9
+
+[TASK1]
+Description=Group Students by class
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK2]
+Description=Group Teachers by class and subjects
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK3]
+Description=Create an overall administrator
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK4]
+Description=Each teacher with test options
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK5]
+Description=Option to stop student from repeating test
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK6]
+Description=Administrator to set test time table
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK7]
+Description=Option to set questions by classes
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK8]
+Description=Print out questions
+Status=0
+Priority=1
+AssignedTo=
+Comment=
+
+[TASK9]
+Description=Administrator to set previlages to teachers
+Status=0
+Priority=1
+AssignedTo=
+Comment=
