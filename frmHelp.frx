@@ -1,0 +1,139 @@
+ÿÞINTRODUCTION
+
+The programme is basically a quiz administration programme. It has a data 
+base which contains information about the  
+1. teachers/administrators
+2. students
+3. questions which are grouped according to questions
+4. information on which questions to base a particular test on and how to 
+distribute marks among various questions
+5. test scores.
+
+
+REGISTRATION OF USERS
+
+At any single time for the programme to be used there must be atleast one 
+registered Teacher/Administrator. If for any reason there is no 
+Teacher/Administrator then the programme will prompt for one to be 
+created. There can however be more than one registered 
+Teacher/Administrator at a time. Individuals are identified by there Official 
+Numbers which will be asked for when logging in. Other information that will 
+be needed to register a Teacher/Administrator are Rank, Initials, Surname 
+and Password. Note that once there is atleast one registered 
+Teacher/Administrator then only a Teacher/Administrator can register 
+another Teacher/Administrator.
+
+Students can only be registered by a Teacher/Administrator. The 
+information needed to register a student include Official Number, Rank, 
+Initials and Surname. When a student is registered the initial password the 
+student will use is his/her official number, however the student can then 
+login and change the password to whatever he/she wishes. This way only 
+the student knows his/her password.
+
+LOGGING IN
+
+Having talked about registration of users. To use this application you will 
+need to first of all login irrespective of your status. Once you run the 
+application the login dialog appears where you enter your official number 
+and password. It is verified and if correct you can use the application. Then 
+depending on if you are a Teacher/Administrator or a Student certain 
+options are available to you. 
+
+TEACHERS/ADMINISTRATORS
+
+For a Teacher/Administrator you can 
+1. Manage users and view their results
+2. Manage Quiz Library
+3. Select Quiz Options
+4. Prune Results database
+5. Change your password
+6. Log out 
+7. Quit the application.
+
+MANAGING USERS
+
+To manage users click the "Manage Users and View Results" Button. This 
+will display a window with all registered users ie Teachers and Students 
+according to their rank. You can view the details of each user by click on 
+them. You can add new user. Edit existing users or Delete existing users. 
+You can also view the results of any selected student. It is possible for 
+you to ban any student from using the application.
+
+MANAGING QUIZ LIBRARY
+
+To manage the quiz library click the "Manage Quiz Library" Button. this will 
+display a window for all existing register subjects. You can add new 
+subjects, edit or delete any existing subject. To manage questions under 
+any subject, double click the subject or select it and click the "Questions" 
+button. This will display a window that shows the questions. 
+You can add new questions for that subject or Edit and delete existing 
+questions. the questions are of three categories. The multiple choice type 
+questions. The true or false type questions, and the written type questions. 
+Each of these types can also have pictures.
+
+SELECTING QUIZ OPTIONS
+
+To select quiz options click the "Select Quiz Options" Button, this will 
+display a window from which you can select which subject to test students 
+on, the total number of questions to ask in a test, the distribution of test 
+questions among the diffrent question types. Wheather the questions 
+should be asked randomly or in a particular order. The duration of 
+the test and how the marks should be distributed among the questions to 
+be asked (wheather equally or in a specified pacentage).
+
+PRUNE RESULT DATABASE
+
+You can prune the result database by clicking the "Prune Result 
+Database" button. This will display a window from which you can select 
+which results you want to prune from the database.
+
+
+STUDENTS
+
+If you are Student the only the following options will be available to you 
+when you login. 
+1. Start quiz
+2. View result
+3. Change password
+4. Log out
+5. Quit Application.
+
+
+START QUIZ
+
+To Start the quiz click the "Start Quiz" button. This will display the quiz 
+window. Here the questions come up one after the other. You can either 
+answer or skip a question. There is a count down timer above the question 
+so you can keep tract of how much time you have left.
+The quiz can end in three possible ways
+1. You finish answering the questions
+2. You choose the quit the quiz
+3. Your time runs out before you finish answering the questions. 
+
+Which ever way, your score for that particular test will be shown.
+
+VIEW RESULTS
+
+You can view all your previous results by clicking the "View Result" button. 
+This will display the results window.. The result can be viewed in form of a 
+graph or a table. Your perfomance is also compared with that of other 
+students and the result displayed for you to see. you can also print your 
+result as you see it.
+
+
+CHANGING PASSWORD
+
+To change your password click The "Change Password" Button which will 
+display a window where you will be required to enter the old password and 
+then the new pass word you want.
+
+
+LOGGING OUT
+
+When you click on the "Log Out" button you will be logged out but the 
+application will not close, instead  the login dialog box will be displayed so 
+that someone else can login.
+
+QUITING
+
+To quit the application completely you need to click the "Quit" Button.
